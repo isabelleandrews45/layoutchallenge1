@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin:0 auto;
+	width:900px;
+}
+header {
+  border: 1px solid black;
+  width: 900px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-bottom:10px;
+}
+.float-container {
+	overflow: hidden;
+	/*margin:10px 0;*/
+	width: 100%;
+}
+.secondrow {
+  border: 1px solid black;
+  width: 600px;
+  height: 400px; 
+  float: left;
+  margin-right: 10px; 
+}
+
+.secondrow2{
+  border: 1px solid black;
+  width: 290px;
+  height: 400px;
+  float:left;
+}
+
+footer{
+border: 1px solid black;
+  width: 900px;
+  height: 100px;
+  box-sizing: border-box;
+  clear:left;
+  margin-top:10px;
+}
